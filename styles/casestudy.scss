@@ -1,0 +1,137 @@
+.casestudy {
+  background-color: #ededed;
+  .inner {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 30px;
+    .title {
+      padding: 60px;
+      font-size: 18px;
+      font-weight: 600;
+      text-align: center;
+    }
+    .subtitle {
+      padding: 10px 40px;
+      h3 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #c4161d;
+        text-align: center;
+      }
+      h4 {
+        padding-top: 10px;
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+
+    .scroll {
+      width: 100%;
+      padding: 40px 0;
+      .card {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        .left {
+          width: 60%;
+          .image {
+            position: relative;
+            height: 400px;
+            width: 80%;
+            .img {
+              position: relative;
+              height: 400px;
+              width: 100%;
+            }
+            .color {
+              position: absolute;
+              height: 63%;
+              width: 75%;
+              top: 4%;
+              left: 12.5%;
+              overflow-y: scroll;
+              .lapimage {
+                position: relative;
+                width: 100%;
+
+                img {
+                  position: unset !important;
+                  width: 100%;
+                  height: auto;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.casestudy {
+  .inner {
+    .right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .laptitle {
+        font-size: 22px;
+        font-weight: 500;
+      }
+      .horizontal {
+        display: flex;
+        gap: 10px;
+        .industry,
+        .location {
+          font-size: 15px;
+        }
+      }
+      .content {
+        font-size: 15px;
+      }
+      button {
+        font-size: 16px;
+        background-color: #c4161d;
+        color: white;
+        border-radius: 30px;
+        padding: 8px 20px;
+        border: none;
+      }
+    }
+  }
+}
+.swiper-pagination {
+  position: relative;
+
+  .swiper-pagination-bullet {
+    filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #ff5959;
+  }
+}
+
+@media (max-width: 900px) {
+  .casestudy {
+    .inner {
+      .scroll {
+        .card {
+          flex-direction: column;
+          padding: 0 30px;
+          justify-content: center;
+          .left {
+            width: 100%;
+          }
+          .right {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .swiper-pagination {
+    display: none;
+  }
+}

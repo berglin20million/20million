@@ -1,0 +1,170 @@
+.aboutwork{
+    .inner{
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px 30px;
+        .title{
+            padding: 60px;
+            text-align: center;
+            font-size: 19px;
+            font-weight: 600;
+            
+
+        }
+        .divide{
+            display: flex;
+            .left{
+                width: 40%;
+                .card{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    .atitle{
+                        padding-top: 50px;
+                        color: #c4161d;
+                        font-size: 22px;
+                        font-weight: 700;
+                    }
+                    .content , .content2{
+                        font-size: 14px;
+                        line-height: 2;
+                    }
+                }
+            }
+            .right{
+                position: relative;
+                padding: 50px 0;
+                width: 60%;
+                .img{
+                    position: relative;
+                    width: 90%;
+                    margin: auto;
+                    height: 350px;
+                }
+            }
+        }
+        .container{
+            position: absolute;
+            display: flex;
+            top: 40%;
+            left: 50px;
+            gap: 5px;
+            .hexagon{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .shape{
+                    width: 100%;
+                    height: 100%;
+                    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                    background-color: rgb(160, 154, 154);
+                    opacity: .9;
+                }
+                .shape.active{
+                    background-color: #c4161d;
+                }
+                .text{
+                    position: absolute;
+                    color: white;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+        }
+        .container2{
+            position: absolute;
+            display: flex;
+            top: 58%;
+            left: 100px;
+            gap: 5px;
+            .hexagon{
+                height: 100px;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .shape{
+                    width: 100%;
+                    height: 100%;
+                    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                    background-color: rgb(176, 169, 169);
+                    opacity: .9;
+                }
+                .shape.active{
+                    background-color: #c4161d;
+                }
+                .text{
+                    position: absolute;
+                    color: white;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+        }
+        .boxes{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            width: 90%;
+            padding: 40px;
+            .innerboxes{
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+
+                .box{
+                    
+                    height: 120px;
+                    width: 120px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 10px;
+                    .innerbox{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 10px;
+                        width: 80px;
+                        height: 80px;
+                        background-color: #e7e4e4;
+                        border-radius: 15px;
+                        .image{
+                            position: relative;
+                            width: 40px;
+                            height: 40px;
+
+                        }
+                        
+                    }
+                    p{
+                        font-size: 15px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:900px){
+    .aboutwork{
+        .inner{
+            .divide{
+                flex-direction: column;
+                .left{
+                    width: 100%;
+                }
+                .right{
+                    width: 100%;
+                }
+            }
+            .boxes{
+                flex-direction: column;
+            }
+        }
+    }
+}

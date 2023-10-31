@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "address":" 20 million , street",
+        "address2":"chennai-620003",
+        "country":"India"
+    },
+    {
+        "id":2,
+        "address":" 20 million , street",
+        "address2":"chennai-620003",
+        "country":"India"
+    },
+    {
+        "id":3,
+        "address":" 20 million , street",
+        "address2":"chennai-620003",
+        "country":"India"
+    },
+    {
+        "id":4,
+        "address":" 20 million , street",
+        "address2":"chennai-620003",
+        "country":"India"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "image":"/image/ecommercepage.jpg",
+        "topic":"Social app API",
+        "location":"India",
+        "industry":"Social Protection",
+        "content":"In a era where the demands on social protection systems are greater than ever , traditional methods of managing and distributing assistance have proven to be increasingly inadequate"
+    },
+    {
+        "id":2,
+        "image":"/image/ecommercepage.jpg",
+        "topic":"Social app API",
+        "location":"India",
+        "industry":"Social Protection",
+        "content":"In a era where the demands on social protection systems are greater than ever , traditional methods of managing and distributing assistance have proven to be increasingly inadequate"
+    },
+    {
+        "id":3,
+        "image":"/image/ecommercepage.jpg",
+        "topic":"Social app API",
+        "location":"India",
+        "industry":"Social Protection",
+        "content":"In a era where the demands on social protection systems are greater than ever , traditional methods of managing and distributing assistance have proven to be increasingly inadequate"
+    },
+    {
+        "id":4,
+        "image":"/image/ecommercepage.jpg",
+        "topic":"Social app API",
+        "location":"India",
+        "industry":"Social Protection",
+        "content":"In a era where the demands on social protection systems are greater than ever , traditional methods of managing and distributing assistance have proven to be increasingly inadequate"
+    },
+    {
+        "id":5,
+        "image":"/image/ecommercepage.jpg",
+        "topic":"Social app API",
+        "location":"India",
+        "industry":"Social Protection",
+        "content":"In a era where the demands on social protection systems are greater than ever , traditional methods of managing and distributing assistance have proven to be increasingly inadequate"
+    }
+]

@@ -1,0 +1,109 @@
+.landingpage{
+    background-color: #ededed;
+    .inner{
+        max-width: 1200px;
+        margin: auto;
+        padding-top: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .image{
+            position: relative;
+            width: 250px;
+            height: 100px;
+        }
+        .title{
+            h2{
+                max-width: 900px;
+                margin: auto;
+                color: #c4161d;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 1.6;
+                text-align: center;
+                letter-spacing: .4px;
+            }
+            h3{
+                max-width: 700px;
+                margin: auto;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 1.6;
+                text-align: center;
+                letter-spacing: .4px;
+            }
+            
+        }
+        .play{
+            padding: 60px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            .point{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                .img{
+                    position: relative;
+                    height: 35px;
+                    width: 35px;
+                }
+                h4{
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+            }
+        }
+
+
+
+
+        .scroll{
+            padding: 50px 0;
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            .card{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 80px;
+                width: 120px;
+                background-color: white;
+                border-radius: 10px;
+            }
+            
+        }
+        
+    }
+}
+
+@media(max-width:600px)  {
+    .landingpage{
+        .inner{
+            .scroll{
+                width: 60%;
+            }
+        }
+    }
+}
+
+
+@media(max-width:990px){
+    .landingpage{
+        .inner{
+            padding: 0 20px;
+            .title{
+                h2{
+                    font-size: 26px;
+                }
+                h3{
+                    padding-top: 20px;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

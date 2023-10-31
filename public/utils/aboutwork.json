@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title":"Engineering",
+        "content":"We provide software product engineering for IP-led requirements, software services for mature and legacy systems, and digital transformation for small to large enterprises around the world.",
+        "content2": "We help companies identify and define technical solutions for their business problems, solve complex engineering problems, and build their own engineering teams."
+    },
+    {
+        "id":2,
+        "title":"Incubator",
+        "content":"Tntra guides innovators and entrepreneurs in every phase of their business journey. This spans crafting value propositions, refining intellectual property and technology plans, developing products and services, forming enterprise structures and value-chain partnerships, and creating detailed business models. ",
+        "content2":"Tntra also provides engineering services, potential pre-seed and seed funding, and access to a global network of mentors and subject matter experts through its Ventures group and Enterprise Innovation Platform & Ecosystem."
+    },
+    {
+        "id":3,
+        "title":"Academy",
+        "content":"Gurukula or Academy is Tntra’s “Future-of-Work” solution that comprises a cutting-edge technology platform deployed as Software-as-a-Service or Platform-as-a-Service, supported by a unique mentorship design and content library.",
+        "content2":" Gurukula is domain and industry-agnostic and can be customized for small to large enterprises, as well as offered to individuals who would like to constantly enhance their skills and stay relevant in the marketplace."
+    },
+    {
+        "id":4,
+        "title":"Venture",
+        "content":"We provide pre-seed and seed funding, primarily to companies that are part of the Tntra ecosystem – leveraging our engineering services and incubator. We also participate in funding rounds led by our partners that are investing in ventures focused on FinTech, HealthTech, Supply Chain, IoT, and New Economy domains.",
+        "content2":"   "
+    }
+]

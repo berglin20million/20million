@@ -218,7 +218,7 @@
         width: 350px;
         padding: 20px;
         .same{
-            margin-bottom: 20px;
+            margin-top: 20px;
             display: flex;
             align-items: center;
             gap: 10px;
@@ -235,7 +235,13 @@
                 border: none;
             }
         }
+        .error{
+            font-size: 10px;
+            font-weight: 500;
+            color: red;
+        }
         .textarea{
+            margin-top: 20px;
             width: 100%;
             height: 100px;
             display: flex;

@@ -23,7 +23,7 @@ const Navbar = () => {
                 </div>
                 <div className="navlinks">
                     <ul>
-                        <li onMouseOver={()=>setEnginer(true)} onMouseLeave={()=>setEnginer(false)}><Link href='/' passHref> <div className='anchor'>Engineering <Image src={arrow} alt="" width={12} height={12}/></div> </Link> 
+                        {/* <li onMouseOver={()=>setEnginer(true)} onMouseLeave={()=>setEnginer(false)}><Link href='/' passHref> <div className='anchor'>Engineering <Image src={arrow} alt="" width={12} height={12}/></div> </Link> 
                             <div className={enginer ? 'enginer active': 'enginer'}>
                                 <h3>Digital transformation</h3>
                                 <h3>Methodologies</h3>
@@ -46,7 +46,7 @@ const Navbar = () => {
                                 <h3>Podcasts</h3>
                                 <h3>Whitepapers</h3>
                             </div>
-                        </li>
+                        </li> */}
                         <button>Contact</button>
                     </ul>
                 </div>

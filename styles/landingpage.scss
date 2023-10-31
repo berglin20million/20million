@@ -7,12 +7,16 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        padding-bottom: 50px;
         .image{
             position: relative;
             width: 250px;
             height: 100px;
         }
         .title{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
             h2{
                 max-width: 900px;
                 margin: auto;
@@ -60,10 +64,11 @@
 
 
         .scroll{
+            display: none;
             padding: 50px 0;
             width: 90%;
             margin: auto;
-            display: flex;
+            // display: flex;
             justify-content: center;
             .card{
                 display: flex;
